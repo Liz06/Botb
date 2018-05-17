@@ -168,9 +168,9 @@ body {
 <!-- this script must go after the div -->
 <script type="text/javascript">
   $("#countdown")
-  .countdown("2018/07/22", function(event) {
+  .countdown("2018/06/30", function(event) {
     $(this).text(
-      event.strftime('%D days %H hours %M minutes')
+      event.strftime('%D days %H hours %M minutes %S seconds')
     );
   });
 </script>
