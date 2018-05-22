@@ -59,6 +59,9 @@ body {
 	border-top-color: #000;
 	background-color: #FFF;
 	font-family: 'Milonga', cursive;
+	color: #8D2092;
+	font-weight: bold;
+	font-size: 18px;
 }
 .oneColLiqCtrHdr #header h1 {
 	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
@@ -111,7 +114,10 @@ body {
 .oneColLiqCtrHdr #container #header table tr td a {
 }
 .oneColLiqCtrHdr #container #header a {
-	color: #8D2092;
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
 }
 .oneColLiqCtrHdr #container #header table tr td a {
 }
@@ -125,6 +131,22 @@ body {
 }
 .oneColLiqCtrHdr #container #header table tr td p a {
 }
+.oneColLiqCtrHdr #container #header div p {
+	color: #8D2092;
+}
+.oneColLiqCtrHdr #container #header div div .tab {
+	color: #000000;
+}
+.oneColLiqCtrHdr #container #header div div .tab a {
+	color: #000000;
+	font-weight: bolder;
+	font: Milonga;
+}
+.oneColLiqCtrHdr #container #header div div .tab .oneColLiqCtrHdr {
+	color: #8D2092;
+	font-weight: bolder;
+	font: Milonga;
+}
 -->
 </style></head>
 
@@ -132,17 +154,11 @@ body {
 
 <div id="container">
   <div id="header">
-    <table width="789" height="106" cellpadding="5" cellspacing="10">
-      <tr>
-        <td width="168"><img src="Images/logo.png" alt="logo" width="117" height="76" align="texttop" /></td>
-        <td width="95"><p><a href="index.html">Homepage</a></p></td>
-        <td width="73"><h3><a href="Tickett.html">Tickets</a></h3></td>
-        <td width="63"><p><a href="info.html">Info</a></p></td>
-        <td width="82"><h3><a href="lineup.html">Lineup</a></h3></td>
-        <td width="84"><p><a href="contact.html">Contact</a></p></td>
-        <td width="72"><h3><a href="news.html">News</a></h3></td>
-      </tr>
-    </table>
+    <div align="center">
+      <div align="left">
+        <pre class="tab"><img src="Images/logo.png" alt="logo" width="117" height="76" align="absbottom" />       <a href="index.html" class="oneColLiqCtrHdr">Homepage</a>    <a href="Tickett.html">Tickets</a>      <a href="info.html" class="oneColLiqCtrHdr">Info</a>     <a href="lineup.html">Lineup</a>     <a href="contact.html" class="oneColLiqCtrHdr">Contact</a>     <a href="news.html">News</a></pre> 
+      </div>
+    </div>
 <p><!-- InstanceBeginEditable name="image" --><img src="Images/music-festival-1 2.png" width="98%" /><!-- InstanceEndEditable --></p>
   <!-- end #header --></div>
   <div id="mainContent">
